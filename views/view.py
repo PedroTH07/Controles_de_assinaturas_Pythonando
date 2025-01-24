@@ -107,11 +107,3 @@ class SubscriptionService:
         print(last_12_months_2)
         plt.plot(last_12_months_2, values_for_months)
         plt.show()
-
-# ss = SubscriptionService(engine)
-# result = ss.list_all()
-# for i, s in enumerate(result):
-#     print(f'[{i}] -> {s.empresa}')
-
-# x = int(input())
-# ss.pay(result[x])
